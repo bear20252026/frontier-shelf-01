@@ -9,5 +9,13 @@
     "eug/awesome-opengl",
     "kripken/ammo.js"
   ],
-  "babylonCore": true
+  "babylonCore": true,
+  "demos": 2,
+  "dossiers": [
+    "BabylonJS/Babylon.js",
+    "HKUDS/CLI-Anything",
+    "KhronosGroup/WebGL",
+    "ellisonleao/magictools",
+    "eug/awesome-opengl"
+  ]
 }

@@ -472,6 +472,16 @@
         text-transform: uppercase;
       }
       .room-strip i { display: block; width: 34px; height: 1px; background: #2b36ff; }
+      .plate .shot {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        z-index: 1;
+      }
+      .plate .no { text-shadow: 0 1px 10px rgba(255,255,255,.55); }
       .plate--scene .motif::before {
         content: "";
         position: absolute;
@@ -510,7 +520,7 @@
         <section class="intro">
           <p class="eyebrow">Industry benchmarks · Volume I of VI · 108 entries · 1–108</p>
           <h1>The engine room.</h1>
-          <p class="lead">Resources, CSS 3D, early physics and the opening WebGL grammar. Six volumes, 650 benchmark entries, one catalog. Three.js cards open their local demo; the source sits under <b>source/three</b>. Supplementary repositories sit under source/vendor.</p>
+          <p class="lead">Resources, CSS 3D, early physics and the opening WebGL grammar. Six volumes, 650 benchmark entries, one catalog. Every card opens a page held in this repository: a rendered three.js example, a local project demo, the three.js source room, or a source dossier.</p>
           <div class="tools">
             <label class="search">
               <span>Filter</span>
@@ -527,1298 +537,1406 @@
             <span class="sec-note">108 entries · Resources, CSS 3D, early physics and the opening WebGL grammar.</span>
           </div>
           <div class="grid">
-          <a class="piece" href="https://github.com/BabylonJS/Babylon.js" target="_blank" rel="noopener" data-text="[&quot;babylon.js&quot;,&quot;awesome creative coding&quot;,&quot;创意编程资源&quot;,&quot;babylonjs/babylon.js&quot;,&quot;&quot;]">
+          <a class="piece" href="./dossiers/babylonjs-babylon-js.html" data-text="[&quot;babylon.js&quot;,&quot;awesome creative coding&quot;,&quot;创意编程资源&quot;,&quot;babylonjs/babylon.js&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              
               <span class="no">1</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Babylon.js</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Creative coding entry from BabylonJS/Babylon.js. Open the repository for the full toolkit and the files behind “Babylon.js”.</p>
+              <p>A repository record from BabylonJS/Babylon.js. This card opens a local source dossier with the vendored README and file list, not an upstream page.</p>
               <ul class="tags"><li>Creative coding</li><li>BabylonJS</li><li>source record</li></ul>
               <span class="source-line"><b>BabylonJS/Babylon.js</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/ellisonleao/magictools" target="_blank" rel="noopener" data-text="[&quot;magic tools&quot;,&quot;awesome creative coding&quot;,&quot;创意编程资源&quot;,&quot;ellisonleao/magictools&quot;,&quot;&quot;]">
+          <a class="piece" href="./dossiers/ellisonleao-magictools.html" data-text="[&quot;magic tools&quot;,&quot;awesome creative coding&quot;,&quot;创意编程资源&quot;,&quot;ellisonleao/magictools&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              
               <span class="no">2</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Magic Tools</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Creative coding entry from ellisonleao/magictools. Open the repository for the full toolkit and the files behind “Magic Tools”.</p>
+              <p>A repository record from ellisonleao/magictools. This card opens a local source dossier with the vendored README and file list, not an upstream page.</p>
               <ul class="tags"><li>Creative coding</li><li>ellisonleao</li><li>source record</li></ul>
               <span class="source-line"><b>ellisonleao/magictools</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/ellisonleao/magictools" target="_blank" rel="noopener" data-text="[&quot;gamedev&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;ellisonleao/magictools&quot;,&quot;&quot;]">
+          <a class="piece" href="./dossiers/ellisonleao-magictools.html" data-text="[&quot;gamedev&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;ellisonleao/magictools&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              
               <span class="no">3</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Gamedev</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Resource entry from ellisonleao/magictools. Open the repository for the full toolkit and the files behind “Gamedev”.</p>
+              <p>A repository record from ellisonleao/magictools. This card opens a local source dossier with the vendored README and file list, not an upstream page.</p>
               <ul class="tags"><li>Resource</li><li>ellisonleao</li><li>source record</li></ul>
               <span class="source-line"><b>ellisonleao/magictools</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/kripken/ammo.js/" target="_blank" rel="noopener" data-text="[&quot;ammo.js&quot;,&quot;awesome creative coding&quot;,&quot;创意编程资源&quot;,&quot;kripken/ammo.js&quot;,&quot;&quot;]">
+          <a class="piece" href="./source/vendor/kripken/ammo.js/examples/webgl_demo/ammo.html" data-text="[&quot;ammo.js&quot;,&quot;awesome creative coding&quot;,&quot;创意编程资源&quot;,&quot;kripken/ammo.js&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              
               <span class="no">4</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Ammo.js</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Creative coding entry from kripken/ammo.js. Open the repository for the full toolkit and the files behind “Ammo.js”.</p>
+              <p>A local rendered project from kripken/ammo.js, served from this room's vendored source. “Ammo.js” opens its runnable page, not an upstream copy.</p>
               <ul class="tags"><li>Creative coding</li><li>kripken</li><li>source record</li></ul>
               <span class="source-line"><b>kripken/ammo.js</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/kripken/ammo.js/" target="_blank" rel="noopener" data-text="[&quot;ammo.js&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;kripken/ammo.js&quot;,&quot;&quot;]">
+          <a class="piece" href="./source/vendor/kripken/ammo.js/examples/webgl_demo/ammo.html" data-text="[&quot;ammo.js&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;kripken/ammo.js&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              
               <span class="no">5</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Ammo.js</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Resource entry from kripken/ammo.js. Open the repository for the full toolkit and the files behind “Ammo.js”.</p>
+              <p>A local rendered project from kripken/ammo.js, served from this room's vendored source. “Ammo.js” opens its runnable page, not an upstream copy.</p>
               <ul class="tags"><li>Resource</li><li>kripken</li><li>source record</li></ul>
               <span class="source-line"><b>kripken/ammo.js</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/KhronosGroup/WebGL/issues" target="_blank" rel="noopener" data-text="[&quot;khronos github issue page&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;khronosgroup/webgl&quot;,&quot;&quot;]">
+          <a class="piece" href="./dossiers/khronosgroup-webgl.html" data-text="[&quot;khronos github issue page&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;khronosgroup/webgl&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#e6e0d3;--b:#8b3a2e;--m:rgba(20,20,22,0.38)">
+              
               <span class="no">6</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Khronos Github Issue Page</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Resource entry from KhronosGroup/WebGL. Open the repository for the full toolkit and the files behind “Khronos Github Issue Page”.</p>
+              <p>A repository record from KhronosGroup/WebGL. This card opens a local source dossier with the vendored README and file list, not an upstream page.</p>
               <ul class="tags"><li>Resource</li><li>KhronosGroup</li><li>source record</li></ul>
               <span class="source-line"><b>KhronosGroup/WebGL</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/KhronosGroup/WebGL" target="_blank" rel="noopener" data-text="[&quot;webgl source code&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;khronosgroup/webgl&quot;,&quot;&quot;]">
+          <a class="piece" href="./dossiers/khronosgroup-webgl.html" data-text="[&quot;webgl source code&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;khronosgroup/webgl&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#e6e0d3;--b:#8b3a2e;--m:rgba(20,20,22,0.38)">
+              
               <span class="no">7</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Source Code</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Resource entry from KhronosGroup/WebGL. Open the repository for the full toolkit and the files behind “WebGL Source Code”.</p>
+              <p>A repository record from KhronosGroup/WebGL. This card opens a local source dossier with the vendored README and file list, not an upstream page.</p>
               <ul class="tags"><li>Resource</li><li>KhronosGroup</li><li>source record</li></ul>
               <span class="source-line"><b>KhronosGroup/WebGL</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener" data-text="[&quot;hkuds/cli-anything&quot;,&quot;github trending&quot;,&quot;代码仓库 / 工具库&quot;,&quot;hkuds/cli-anything&quot;,&quot;&quot;]">
+          <a class="piece" href="./dossiers/hkuds-cli-anything.html" data-text="[&quot;hkuds/cli-anything&quot;,&quot;github trending&quot;,&quot;代码仓库 / 工具库&quot;,&quot;hkuds/cli-anything&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#d8d6ff;--b:#4040b8;--m:rgba(255,255,255,0.55)">
+              
               <span class="no">8</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>HKUDS CLI-Anything</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Toolkit entry from HKUDS/CLI-Anything. Open the repository for the full toolkit and the files behind “HKUDS CLI-Anything”.</p>
+              <p>A repository record from HKUDS/CLI-Anything. This card opens a local source dossier with the vendored README and file list, not an upstream page.</p>
               <ul class="tags"><li>Toolkit</li><li>HKUDS</li><li>source record</li></ul>
               <span class="source-line"><b>HKUDS/CLI-Anything</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/eug/awesome-opengl" target="_blank" rel="noopener" data-text="[&quot;awesome opengl&quot;,&quot;awesome creative coding&quot;,&quot;创意编程资源&quot;,&quot;eug/awesome-opengl&quot;,&quot;&quot;]">
+          <a class="piece" href="./dossiers/eug-awesome-opengl.html" data-text="[&quot;awesome opengl&quot;,&quot;awesome creative coding&quot;,&quot;创意编程资源&quot;,&quot;eug/awesome-opengl&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              
               <span class="no">9</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Awesome Opengl</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Creative coding entry from eug/awesome-opengl. Open the repository for the full toolkit and the files behind “Awesome Opengl”.</p>
+              <p>A repository record from eug/awesome-opengl. This card opens a local source dossier with the vendored README and file list, not an upstream page.</p>
               <ul class="tags"><li>Creative coding</li><li>eug</li><li>source record</li></ul>
               <span class="source-line"><b>eug/awesome-opengl</b></span>
             </div>
           </a>
-          <a class="piece" href="https://github.com/eug/awesome-opengl" target="_blank" rel="noopener" data-text="[&quot;awesome-opengl&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;eug/awesome-opengl&quot;,&quot;&quot;]">
+          <a class="piece" href="./dossiers/eug-awesome-opengl.html" data-text="[&quot;awesome-opengl&quot;,&quot;awesome webgl&quot;,&quot;webgl 资源&quot;,&quot;eug/awesome-opengl&quot;,&quot;&quot;]">
             <div class="plate plate--interface" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              
               <span class="no">10</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Awesome-opengl</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>A source-first Resource entry from eug/awesome-opengl. Open the repository for the full toolkit and the files behind “Awesome-opengl”.</p>
+              <p>A repository record from eug/awesome-opengl. This card opens a local source dossier with the vendored README and file list, not an upstream page.</p>
               <ul class="tags"><li>Resource</li><li>eug</li><li>source record</li></ul>
               <span class="source-line"><b>eug/awesome-opengl</b></span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/css2d_label.html" data-text="[&quot;css2d label&quot;,&quot;three.js 官方示例&quot;,&quot;css 3d 实验&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/css2d_label.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/css2d_label.jpg" alt="CSS2D Label rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">11</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>CSS2D Label</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “CSS2D Label”. A runnable study from the CSS 3D shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “CSS2D Label”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>CSS 3D</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/css2d_label.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/css3d_mixed.html" data-text="[&quot;css3d mixed&quot;,&quot;three.js 官方示例&quot;,&quot;css 3d 实验&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/css3d_mixed.html&quot;]">
             <div class="plate plate--scene" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/css3d_mixed.jpg" alt="CSS3D Mixed rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">12</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>CSS3D Mixed</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “CSS3D Mixed”. A runnable study from the CSS 3D shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “CSS3D Mixed”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>CSS 3D</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/css3d_mixed.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/css3d_molecules.html" data-text="[&quot;css3d molecules&quot;,&quot;three.js 官方示例&quot;,&quot;css 3d 实验&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/css3d_molecules.html&quot;]">
             <div class="plate plate--scene" style="--a:#d8d6ff;--b:#4040b8;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/css3d_molecules.jpg" alt="CSS3D Molecules rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">13</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>CSS3D Molecules</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “CSS3D Molecules”. A runnable study from the CSS 3D shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “CSS3D Molecules”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>CSS 3D</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/css3d_molecules.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/css3d_orthographic.html" data-text="[&quot;css3d orthographic&quot;,&quot;three.js 官方示例&quot;,&quot;css 3d 实验&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/css3d_orthographic.html&quot;]">
             <div class="plate plate--scene" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/css3d_orthographic.jpg" alt="CSS3D Orthographic rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">14</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>CSS3D Orthographic</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “CSS3D Orthographic”. A runnable study from the CSS 3D shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “CSS3D Orthographic”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>CSS 3D</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/css3d_orthographic.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/css3d_periodictable.html" data-text="[&quot;css3d periodictable&quot;,&quot;three.js 官方示例&quot;,&quot;css 3d 实验&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/css3d_periodictable.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/css3d_periodictable.jpg" alt="CSS3D Periodictable rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">15</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>CSS3D Periodictable</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “CSS3D Periodictable”. A runnable study from the CSS 3D shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “CSS3D Periodictable”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>CSS 3D</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/css3d_periodictable.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/css3d_sandbox.html" data-text="[&quot;css3d sandbox&quot;,&quot;three.js 官方示例&quot;,&quot;css 3d 实验&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/css3d_sandbox.html&quot;]">
             <div class="plate plate--scene" style="--a:#e6e0d3;--b:#8b3a2e;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/css3d_sandbox.jpg" alt="CSS3D Sandbox rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">16</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>CSS3D Sandbox</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “CSS3D Sandbox”. A runnable study from the CSS 3D shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “CSS3D Sandbox”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>CSS 3D</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/css3d_sandbox.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/css3d_sprites.html" data-text="[&quot;css3d sprites&quot;,&quot;three.js 官方示例&quot;,&quot;css 3d 实验&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/css3d_sprites.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/css3d_sprites.jpg" alt="CSS3D Sprites rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">17</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>CSS3D Sprites</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “CSS3D Sprites”. A runnable study from the CSS 3D shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “CSS3D Sprites”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>CSS 3D</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/css3d_sprites.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/css3d_youtube.html" data-text="[&quot;css3d youtube&quot;,&quot;three.js 官方示例&quot;,&quot;css 3d 实验&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/css3d_youtube.html&quot;]">
             <div class="plate plate--scene" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/css3d_youtube.jpg" alt="CSS3D Youtube rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">18</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>CSS3D Youtube</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “CSS3D Youtube”. A runnable study from the CSS 3D shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “CSS3D Youtube”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>CSS 3D</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/css3d_youtube.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/games_fps.html" data-text="[&quot;games fps&quot;,&quot;three.js 官方示例&quot;,&quot;游戏与互动&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/games_fps.html&quot;]">
             <div class="plate plate--play" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/games_fps.jpg" alt="Games FPS rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">19</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Games FPS</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Games FPS”. A runnable study from the Game shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Games FPS”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Game</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/games_fps.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/index.html" data-text="[&quot;index&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/index.html&quot;]">
             <div class="plate plate--scene" style="--a:#f6d0c4;--b:#b5452d;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/index.jpg" alt="Index rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">20</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Index</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Index”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Index”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/index.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_animation_groups.html" data-text="[&quot;misc animation groups&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_animation_groups.html&quot;]">
             <div class="plate plate--scene" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_animation_groups.jpg" alt="Misc Animation Groups rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">21</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Animation Groups</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Animation Groups”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Animation Groups”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_animation_groups.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_animation_keys.html" data-text="[&quot;misc animation keys&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_animation_keys.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_animation_keys.jpg" alt="Misc Animation Keys rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">22</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Animation Keys</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Animation Keys”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Animation Keys”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_animation_keys.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_boxselection.html" data-text="[&quot;misc boxselection&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_boxselection.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_boxselection.jpg" alt="Misc Boxselection rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">23</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Boxselection</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Boxselection”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Boxselection”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_boxselection.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_controls_arcball.html" data-text="[&quot;misc controls arcball&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_controls_arcball.html&quot;]">
             <div class="plate plate--scene" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_controls_arcball.jpg" alt="Misc Controls Arcball rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">24</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Controls Arcball</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Controls Arcball”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Controls Arcball”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_controls_arcball.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_controls_drag.html" data-text="[&quot;misc controls drag&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_controls_drag.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_controls_drag.jpg" alt="Misc Controls Drag rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">25</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Controls Drag</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Controls Drag”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Controls Drag”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_controls_drag.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_controls_fly.html" data-text="[&quot;misc controls fly&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_controls_fly.html&quot;]">
             <div class="plate plate--scene" style="--a:#d8d6ff;--b:#4040b8;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_controls_fly.jpg" alt="Misc Controls Fly rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">26</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Controls Fly</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Controls Fly”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Controls Fly”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_controls_fly.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_controls_map.html" data-text="[&quot;misc controls map&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_controls_map.html&quot;]">
             <div class="plate plate--scene" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_controls_map.jpg" alt="Misc Controls Map rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">27</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Controls Map</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Controls Map”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Controls Map”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_controls_map.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_controls_orbit.html" data-text="[&quot;misc controls orbit&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_controls_orbit.html&quot;]">
             <div class="plate plate--scene" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_controls_orbit.jpg" alt="Misc Controls Orbit rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">28</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Controls Orbit</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Controls Orbit”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Controls Orbit”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_controls_orbit.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_controls_pointerlock.html" data-text="[&quot;misc controls pointerlock&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_controls_pointerlock.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_controls_pointerlock.jpg" alt="Misc Controls Pointerlock rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">29</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Controls Pointerlock</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Controls Pointerlock”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Controls Pointerlock”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_controls_pointerlock.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_controls_trackball.html" data-text="[&quot;misc controls trackball&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_controls_trackball.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_controls_trackball.jpg" alt="Misc Controls Trackball rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">30</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Controls Trackball</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Controls Trackball”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Controls Trackball”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_controls_trackball.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_controls_transform.html" data-text="[&quot;misc controls transform&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_controls_transform.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_controls_transform.jpg" alt="Misc Controls Transform rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">31</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Controls Transform</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Controls Transform”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Controls Transform”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_controls_transform.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_draco.html" data-text="[&quot;misc exporter draco&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_draco.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_draco.jpg" alt="Misc Exporter Draco rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">32</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter Draco</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter Draco”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter Draco”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_draco.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_exr.html" data-text="[&quot;misc exporter exr&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_exr.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_exr.jpg" alt="Misc Exporter Exr rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">33</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter Exr</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter Exr”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter Exr”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_exr.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_gcode.html" data-text="[&quot;misc exporter gcode&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_gcode.html&quot;]">
             <div class="plate plate--scene" style="--a:#d8d6ff;--b:#4040b8;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_gcode.jpg" alt="Misc Exporter Gcode rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">34</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter Gcode</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter Gcode”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter Gcode”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_gcode.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_gltf.html" data-text="[&quot;misc exporter gltf&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_gltf.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_gltf.jpg" alt="Misc Exporter glTF rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">35</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter glTF</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter glTF”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter glTF”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_gltf.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_gltf_normals.html" data-text="[&quot;misc exporter gltf normals&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_gltf_normals.html&quot;]">
             <div class="plate plate--scene" style="--a:#f6d0c4;--b:#b5452d;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_gltf_normals.jpg" alt="Misc Exporter glTF Normals rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">36</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter glTF Normals</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter glTF Normals”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter glTF Normals”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_gltf_normals.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_ktx2.html" data-text="[&quot;misc exporter ktx2&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_ktx2.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_ktx2.jpg" alt="Misc Exporter Ktx2 rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">37</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter Ktx2</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter Ktx2”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter Ktx2”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_ktx2.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_obj.html" data-text="[&quot;misc exporter obj&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_obj.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_obj.jpg" alt="Misc Exporter Obj rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">38</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter Obj</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter Obj”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter Obj”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_obj.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_ply.html" data-text="[&quot;misc exporter ply&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_ply.html&quot;]">
             <div class="plate plate--scene" style="--a:#f6d0c4;--b:#b5452d;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_ply.jpg" alt="Misc Exporter Ply rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">39</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter Ply</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter Ply”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter Ply”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_ply.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_stl.html" data-text="[&quot;misc exporter stl&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_stl.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_stl.jpg" alt="Misc Exporter Stl rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">40</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter Stl</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter Stl”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter Stl”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_stl.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_exporter_usdz.html" data-text="[&quot;misc exporter usdz&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_exporter_usdz.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_exporter_usdz.jpg" alt="Misc Exporter Usdz rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">41</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Exporter Usdz</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Exporter Usdz”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Exporter Usdz”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_exporter_usdz.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_raycaster_helper.html" data-text="[&quot;misc raycaster helper&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_raycaster_helper.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_raycaster_helper.jpg" alt="Misc Raycaster Helper rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">42</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc Raycaster Helper</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc Raycaster Helper”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc Raycaster Helper”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_raycaster_helper.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/misc_uv_tests.html" data-text="[&quot;misc uv tests&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/misc_uv_tests.html&quot;]">
             <div class="plate plate--scene" style="--a:#f6d0c4;--b:#b5452d;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/misc_uv_tests.jpg" alt="Misc UV Tests rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">43</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Misc UV Tests</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Misc UV Tests”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Misc UV Tests”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/misc_uv_tests.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_ammo_break.html" data-text="[&quot;physics ammo break&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_ammo_break.html&quot;]">
             <div class="plate plate--scene" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_ammo_break.jpg" alt="Physics Ammo Break rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">44</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Ammo Break</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Ammo Break”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Ammo Break”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_ammo_break.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_ammo_cloth.html" data-text="[&quot;physics ammo cloth&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_ammo_cloth.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_ammo_cloth.jpg" alt="Physics Ammo Cloth rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">45</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Ammo Cloth</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Ammo Cloth”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Ammo Cloth”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_ammo_cloth.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_ammo_instancing.html" data-text="[&quot;physics ammo instancing&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_ammo_instancing.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_ammo_instancing.jpg" alt="Physics Ammo Instancing rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">46</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Ammo Instancing</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Ammo Instancing”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Ammo Instancing”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_ammo_instancing.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_ammo_rope.html" data-text="[&quot;physics ammo rope&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_ammo_rope.html&quot;]">
             <div class="plate plate--scene" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_ammo_rope.jpg" alt="Physics Ammo Rope rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">47</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Ammo Rope</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Ammo Rope”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Ammo Rope”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_ammo_rope.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_ammo_terrain.html" data-text="[&quot;physics ammo terrain&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_ammo_terrain.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_ammo_terrain.jpg" alt="Physics Ammo Terrain rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">48</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Ammo Terrain</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Ammo Terrain”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Ammo Terrain”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_ammo_terrain.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_ammo_volume.html" data-text="[&quot;physics ammo volume&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_ammo_volume.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_ammo_volume.jpg" alt="Physics Ammo Volume rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">49</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Ammo Volume</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Ammo Volume”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Ammo Volume”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_ammo_volume.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_jolt_instancing.html" data-text="[&quot;physics jolt instancing&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_jolt_instancing.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_jolt_instancing.jpg" alt="Physics Jolt Instancing rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">50</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Jolt Instancing</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Jolt Instancing”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Jolt Instancing”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_jolt_instancing.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_rapier_basic.html" data-text="[&quot;physics rapier basic&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_rapier_basic.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_rapier_basic.jpg" alt="Physics Rapier Basic rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">51</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Rapier Basic</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Rapier Basic”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Rapier Basic”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_rapier_basic.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_rapier_character_controller.html" data-text="[&quot;physics rapier character controller&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_rapier_character_controller.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_rapier_character_controller.jpg" alt="Physics Rapier Character Controller rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">52</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Rapier Character Controller</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Rapier Character Controller”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Rapier Character Controller”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_rapier_character_controller.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_rapier_instancing.html" data-text="[&quot;physics rapier instancing&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_rapier_instancing.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_rapier_instancing.jpg" alt="Physics Rapier Instancing rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">53</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Rapier Instancing</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Rapier Instancing”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Rapier Instancing”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_rapier_instancing.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_rapier_joints.html" data-text="[&quot;physics rapier joints&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_rapier_joints.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_rapier_joints.jpg" alt="Physics Rapier Joints rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">54</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Rapier Joints</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Rapier Joints”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Rapier Joints”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_rapier_joints.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_rapier_terrain.html" data-text="[&quot;physics rapier terrain&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_rapier_terrain.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_rapier_terrain.jpg" alt="Physics Rapier Terrain rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">55</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Rapier Terrain</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Rapier Terrain”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Rapier Terrain”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_rapier_terrain.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/physics_rapier_vehicle_controller.html" data-text="[&quot;physics rapier vehicle controller&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/physics_rapier_vehicle_controller.html&quot;]">
             <div class="plate plate--scene" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/physics_rapier_vehicle_controller.jpg" alt="Physics Rapier Vehicle Controller rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">56</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Physics Rapier Vehicle Controller</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Physics Rapier Vehicle Controller”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Physics Rapier Vehicle Controller”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/physics_rapier_vehicle_controller.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/svg_lines.html" data-text="[&quot;svg lines&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/svg_lines.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/svg_lines.jpg" alt="SVG Lines rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">57</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>SVG Lines</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “SVG Lines”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “SVG Lines”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/svg_lines.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/svg_sandbox.html" data-text="[&quot;svg sandbox&quot;,&quot;three.js 官方示例&quot;,&quot;综合示例&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/svg_sandbox.html&quot;]">
             <div class="plate plate--scene" style="--a:#e6e0d3;--b:#8b3a2e;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/svg_sandbox.jpg" alt="SVG Sandbox rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">58</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>SVG Sandbox</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “SVG Sandbox”. A runnable study from the Misc shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “SVG Sandbox”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Misc</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/svg_sandbox.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webaudio_orientation.html" data-text="[&quot;webaudio orientation&quot;,&quot;three.js 官方示例&quot;,&quot;音频可视化&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webaudio_orientation.html&quot;]">
             <div class="plate plate--scene" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/webaudio_orientation.jpg" alt="Webaudio Orientation rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">59</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Webaudio Orientation</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Webaudio Orientation”. A runnable study from the Audio shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Webaudio Orientation”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Audio</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webaudio_orientation.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webaudio_sandbox.html" data-text="[&quot;webaudio sandbox&quot;,&quot;three.js 官方示例&quot;,&quot;音频可视化&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webaudio_sandbox.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webaudio_sandbox.jpg" alt="Webaudio Sandbox rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">60</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Webaudio Sandbox</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Webaudio Sandbox”. A runnable study from the Audio shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Webaudio Sandbox”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Audio</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webaudio_sandbox.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webaudio_timing.html" data-text="[&quot;webaudio timing&quot;,&quot;three.js 官方示例&quot;,&quot;音频可视化&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webaudio_timing.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webaudio_timing.jpg" alt="Webaudio Timing rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">61</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Webaudio Timing</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Webaudio Timing”. A runnable study from the Audio shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Webaudio Timing”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Audio</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webaudio_timing.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webaudio_visualizer.html" data-text="[&quot;webaudio visualizer&quot;,&quot;three.js 官方示例&quot;,&quot;音频可视化&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webaudio_visualizer.html&quot;]">
             <div class="plate plate--scene" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/webaudio_visualizer.jpg" alt="Webaudio Visualizer rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">62</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>Webaudio Visualizer</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “Webaudio Visualizer”. A runnable study from the Audio shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “Webaudio Visualizer”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>Audio</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webaudio_visualizer.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_animation_keyframes.html" data-text="[&quot;webgl animation keyframes&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_animation_keyframes.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_animation_keyframes.jpg" alt="WebGL Animation Keyframes rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">63</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Animation Keyframes</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Animation Keyframes”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Animation Keyframes”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_animation_keyframes.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_animation_multiple.html" data-text="[&quot;webgl animation multiple&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_animation_multiple.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_animation_multiple.jpg" alt="WebGL Animation Multiple rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">64</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Animation Multiple</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Animation Multiple”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Animation Multiple”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_animation_multiple.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_animation_skinning_additive_blending.html" data-text="[&quot;webgl animation skinning additive blending&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_animation_skinning_additive_blending.html&quot;]">
             <div class="plate plate--scene" style="--a:#e8e3d8;--b:#3d6b46;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_animation_skinning_additive_blending.jpg" alt="WebGL Animation Skinning Additive Blending rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">65</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Animation Skinning Additive Blending</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Animation Skinning Additive Blending”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Animation Skinning Additive Blending”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_animation_skinning_additive_blending.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_animation_skinning_blending.html" data-text="[&quot;webgl animation skinning blending&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_animation_skinning_blending.html&quot;]">
             <div class="plate plate--scene" style="--a:#d8d6ff;--b:#4040b8;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_animation_skinning_blending.jpg" alt="WebGL Animation Skinning Blending rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">66</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Animation Skinning Blending</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Animation Skinning Blending”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Animation Skinning Blending”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_animation_skinning_blending.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_animation_skinning_ik.html" data-text="[&quot;webgl animation skinning ik&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_animation_skinning_ik.html&quot;]">
             <div class="plate plate--scene" style="--a:#f6d0c4;--b:#b5452d;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_animation_skinning_ik.jpg" alt="WebGL Animation Skinning Ik rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">67</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Animation Skinning Ik</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Animation Skinning Ik”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Animation Skinning Ik”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_animation_skinning_ik.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_animation_skinning_morph.html" data-text="[&quot;webgl animation skinning morph&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_animation_skinning_morph.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_animation_skinning_morph.jpg" alt="WebGL Animation Skinning Morph rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">68</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Animation Skinning Morph</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Animation Skinning Morph”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Animation Skinning Morph”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_animation_skinning_morph.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_animation_walk.html" data-text="[&quot;webgl animation walk&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_animation_walk.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_animation_walk.jpg" alt="WebGL Animation Walk rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">69</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Animation Walk</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Animation Walk”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Animation Walk”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_animation_walk.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_batch_lod_bvh.html" data-text="[&quot;webgl batch lod bvh&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_batch_lod_bvh.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_batch_lod_bvh.jpg" alt="WebGL Batch LOD BVH rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">70</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Batch LOD BVH</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Batch LOD BVH”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Batch LOD BVH”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_batch_lod_bvh.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry.html" data-text="[&quot;webgl buffergeometry&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry.html&quot;]">
             <div class="plate plate--scene" style="--a:#e8e3d8;--b:#3d6b46;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry.jpg" alt="WebGL Buffergeometry rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">71</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_attributes_integer.html" data-text="[&quot;webgl buffergeometry attributes integer&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_attributes_integer.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_attributes_integer.jpg" alt="WebGL Buffergeometry Attributes Integer rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">72</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Attributes Integer</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Attributes Integer”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Attributes Integer”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_attributes_integer.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_attributes_none.html" data-text="[&quot;webgl buffergeometry attributes none&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_attributes_none.html&quot;]">
             <div class="plate plate--scene" style="--a:#f6d0c4;--b:#b5452d;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_attributes_none.jpg" alt="WebGL Buffergeometry Attributes None rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">73</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Attributes None</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Attributes None”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Attributes None”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_attributes_none.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_custom_attributes_particles.html" data-text="[&quot;webgl buffergeometry custom attributes particles&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_custom_attributes_particles.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_custom_attributes_particles.jpg" alt="WebGL Buffergeometry Custom Attributes Particles rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">74</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Custom Attributes Particles</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Custom Attributes Particles”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Custom Attributes Particles”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_custom_attributes_particles.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_drawrange.html" data-text="[&quot;webgl buffergeometry drawrange&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_drawrange.html&quot;]">
             <div class="plate plate--scene" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_drawrange.jpg" alt="WebGL Buffergeometry Drawrange rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">75</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Drawrange</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Drawrange”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Drawrange”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_drawrange.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_glbufferattribute.html" data-text="[&quot;webgl buffergeometry glbufferattribute&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_glbufferattribute.html&quot;]">
             <div class="plate plate--scene" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_glbufferattribute.jpg" alt="WebGL Buffergeometry Glbufferattribute rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">76</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Glbufferattribute</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Glbufferattribute”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Glbufferattribute”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_glbufferattribute.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_indexed.html" data-text="[&quot;webgl buffergeometry indexed&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_indexed.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_indexed.jpg" alt="WebGL Buffergeometry Indexed rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">77</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Indexed</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Indexed”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Indexed”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_indexed.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_instancing.html" data-text="[&quot;webgl buffergeometry instancing&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_instancing.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_instancing.jpg" alt="WebGL Buffergeometry Instancing rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">78</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Instancing</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Instancing”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Instancing”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_instancing.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_instancing_billboards.html" data-text="[&quot;webgl buffergeometry instancing billboards&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_instancing_billboards.html&quot;]">
             <div class="plate plate--scene" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_instancing_billboards.jpg" alt="WebGL Buffergeometry Instancing Billboards rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">79</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Instancing Billboards</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Instancing Billboards”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Instancing Billboards”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_instancing_billboards.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_instancing_interleaved.html" data-text="[&quot;webgl buffergeometry instancing interleaved&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_instancing_interleaved.html&quot;]">
             <div class="plate plate--scene" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_instancing_interleaved.jpg" alt="WebGL Buffergeometry Instancing Interleaved rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">80</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Instancing Interleaved</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Instancing Interleaved”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Instancing Interleaved”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_instancing_interleaved.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_lines.html" data-text="[&quot;webgl buffergeometry lines&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_lines.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_lines.jpg" alt="WebGL Buffergeometry Lines rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">81</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Lines</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Lines”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Lines”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_lines.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_lines_indexed.html" data-text="[&quot;webgl buffergeometry lines indexed&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_lines_indexed.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_lines_indexed.jpg" alt="WebGL Buffergeometry Lines Indexed rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">82</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Lines Indexed</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Lines Indexed”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Lines Indexed”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_lines_indexed.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_points.html" data-text="[&quot;webgl buffergeometry points&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_points.html&quot;]">
             <div class="plate plate--scene" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_points.jpg" alt="WebGL Buffergeometry Points rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">83</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Points</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Points”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Points”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_points.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_points_interleaved.html" data-text="[&quot;webgl buffergeometry points interleaved&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_points_interleaved.html&quot;]">
             <div class="plate plate--scene" style="--a:#cfe8df;--b:#287a88;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_points_interleaved.jpg" alt="WebGL Buffergeometry Points Interleaved rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">84</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Points Interleaved</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Points Interleaved”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Points Interleaved”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_points_interleaved.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_rawshader.html" data-text="[&quot;webgl buffergeometry rawshader&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_rawshader.html&quot;]">
             <div class="plate plate--scene" style="--a:#10141c;--b:#39d3c3;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_rawshader.jpg" alt="WebGL Buffergeometry Rawshader rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">85</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Rawshader</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Rawshader”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Rawshader”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_rawshader.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_selective_draw.html" data-text="[&quot;webgl buffergeometry selective draw&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_selective_draw.html&quot;]">
             <div class="plate plate--scene" style="--a:#e6e0d3;--b:#8b3a2e;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_selective_draw.jpg" alt="WebGL Buffergeometry Selective Draw rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">86</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Selective Draw</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Selective Draw”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Selective Draw”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_selective_draw.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_buffergeometry_uint.html" data-text="[&quot;webgl buffergeometry uint&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_buffergeometry_uint.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_buffergeometry_uint.jpg" alt="WebGL Buffergeometry Uint rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">87</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Buffergeometry Uint</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Buffergeometry Uint”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Buffergeometry Uint”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_buffergeometry_uint.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_camera.html" data-text="[&quot;webgl camera&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_camera.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_camera.jpg" alt="WebGL Camera rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">88</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Camera</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Camera”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Camera”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_camera.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_camera_array.html" data-text="[&quot;webgl camera array&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_camera_array.html&quot;]">
             <div class="plate plate--scene" style="--a:#e8e3d8;--b:#3d6b46;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_camera_array.jpg" alt="WebGL Camera Array rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">89</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Camera Array</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Camera Array”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Camera Array”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_camera_array.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_camera_logarithmicdepthbuffer.html" data-text="[&quot;webgl camera logarithmicdepthbuffer&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_camera_logarithmicdepthbuffer.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_camera_logarithmicdepthbuffer.jpg" alt="WebGL Camera Logarithmicdepthbuffer rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">90</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Camera Logarithmicdepthbuffer</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Camera Logarithmicdepthbuffer”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Camera Logarithmicdepthbuffer”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_camera_logarithmicdepthbuffer.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_clipculldistance.html" data-text="[&quot;webgl clipculldistance&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_clipculldistance.html&quot;]">
             <div class="plate plate--scene" style="--a:#f4f2ec;--b:#2b36ff;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_clipculldistance.jpg" alt="WebGL Clipculldistance rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">91</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Clipculldistance</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Clipculldistance”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Clipculldistance”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_clipculldistance.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_clipping.html" data-text="[&quot;webgl clipping&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_clipping.html&quot;]">
             <div class="plate plate--scene" style="--a:#d8d6ff;--b:#4040b8;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_clipping.jpg" alt="WebGL Clipping rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">92</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Clipping</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Clipping”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Clipping”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_clipping.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_clipping_advanced.html" data-text="[&quot;webgl clipping advanced&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_clipping_advanced.html&quot;]">
             <div class="plate plate--scene" style="--a:#d8d6ff;--b:#4040b8;--m:rgba(255,255,255,0.55)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_clipping_advanced.jpg" alt="WebGL Clipping Advanced rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">93</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Clipping Advanced</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Clipping Advanced”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Clipping Advanced”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_clipping_advanced.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_clipping_intersection.html" data-text="[&quot;webgl clipping intersection&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_clipping_intersection.html&quot;]">
             <div class="plate plate--scene" style="--a:#1a1a1e;--b:#8f9cff;--m:rgba(255,255,255,0.6)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_clipping_intersection.jpg" alt="WebGL Clipping Intersection rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">94</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Clipping Intersection</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Clipping Intersection”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Clipping Intersection”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_clipping_intersection.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_clipping_stencil.html" data-text="[&quot;webgl clipping stencil&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_clipping_stencil.html&quot;]">
             <div class="plate plate--scene" style="--a:#f1e4c8;--b:#1e4f6b;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_clipping_stencil.jpg" alt="WebGL Clipping Stencil rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">95</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Clipping Stencil</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Clipping Stencil”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Clipping Stencil”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_clipping_stencil.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_custom_attributes.html" data-text="[&quot;webgl custom attributes&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_custom_attributes.html&quot;]">
             <div class="plate plate--scene" style="--a:#e6e0d3;--b:#8b3a2e;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_custom_attributes.jpg" alt="WebGL Custom Attributes rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">96</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Custom Attributes</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Custom Attributes”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Custom Attributes”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_custom_attributes.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_custom_attributes_lines.html" data-text="[&quot;webgl custom attributes lines&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_custom_attributes_lines.html&quot;]">
             <div class="plate plate--scene" style="--a:#f6d0c4;--b:#b5452d;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_custom_attributes_lines.jpg" alt="WebGL Custom Attributes Lines rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">97</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Custom Attributes Lines</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Custom Attributes Lines”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Custom Attributes Lines”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_custom_attributes_lines.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_custom_attributes_points.html" data-text="[&quot;webgl custom attributes points&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_custom_attributes_points.html&quot;]">
             <div class="plate plate--scene" style="--a:#e9d8b4;--b:#7a5a2a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_custom_attributes_points.jpg" alt="WebGL Custom Attributes Points rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">98</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Custom Attributes Points</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Custom Attributes Points”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Custom Attributes Points”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_custom_attributes_points.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_custom_attributes_points2.html" data-text="[&quot;webgl custom attributes points2&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_custom_attributes_points2.html&quot;]">
             <div class="plate plate--scene" style="--a:#f6d0c4;--b:#b5452d;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_custom_attributes_points2.jpg" alt="WebGL Custom Attributes Points2 rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">99</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Custom Attributes Points2</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Custom Attributes Points2”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Custom Attributes Points2”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_custom_attributes_points2.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_custom_attributes_points3.html" data-text="[&quot;webgl custom attributes points3&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_custom_attributes_points3.html&quot;]">
             <div class="plate plate--scene" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_custom_attributes_points3.jpg" alt="WebGL Custom Attributes Points3 rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">100</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Custom Attributes Points3</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Custom Attributes Points3”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Custom Attributes Points3”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_custom_attributes_points3.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_decals.html" data-text="[&quot;webgl decals&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_decals.html&quot;]">
             <div class="plate plate--scene" style="--a:#e8e3d8;--b:#3d6b46;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_decals.jpg" alt="WebGL Decals rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">101</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Decals</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Decals”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Decals”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_decals.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_depth_texture.html" data-text="[&quot;webgl depth texture&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_depth_texture.html&quot;]">
             <div class="plate plate--scene" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_depth_texture.jpg" alt="WebGL Depth Texture rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">102</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Depth Texture</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Depth Texture”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Depth Texture”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_depth_texture.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_effects_anaglyph.html" data-text="[&quot;webgl effects anaglyph&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_effects_anaglyph.html&quot;]">
             <div class="plate plate--scene" style="--a:#e8e3d8;--b:#3d6b46;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_effects_anaglyph.jpg" alt="WebGL Effects Anaglyph rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">103</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Effects Anaglyph</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Effects Anaglyph”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Effects Anaglyph”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_effects_anaglyph.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_effects_ascii.html" data-text="[&quot;webgl effects ascii&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_effects_ascii.html&quot;]">
             <div class="plate plate--scene" style="--a:#dbe3e8;--b:#525b66;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_effects_ascii.jpg" alt="WebGL Effects Ascii rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">104</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Effects Ascii</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Effects Ascii”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Effects Ascii”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_effects_ascii.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_effects_parallaxbarrier.html" data-text="[&quot;webgl effects parallaxbarrier&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_effects_parallaxbarrier.html&quot;]">
             <div class="plate plate--scene" style="--a:#d9e6f2;--b:#2c5f8a;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_effects_parallaxbarrier.jpg" alt="WebGL Effects Parallaxbarrier rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">105</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Effects Parallaxbarrier</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Effects Parallaxbarrier”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Effects Parallaxbarrier”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_effects_parallaxbarrier.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_effects_stereo.html" data-text="[&quot;webgl effects stereo&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_effects_stereo.html&quot;]">
             <div class="plate plate--scene" style="--a:#e8e3d8;--b:#3d6b46;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_effects_stereo.jpg" alt="WebGL Effects Stereo rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">106</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Effects Stereo</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Effects Stereo”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Effects Stereo”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_effects_stereo.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_framebuffer_texture.html" data-text="[&quot;webgl framebuffer texture&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_framebuffer_texture.html&quot;]">
             <div class="plate plate--scene" style="--a:#e8e3d8;--b:#3d6b46;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_framebuffer_texture.jpg" alt="WebGL Framebuffer Texture rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">107</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Framebuffer Texture</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Framebuffer Texture”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Framebuffer Texture”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_framebuffer_texture.html</span>
             </div>
           </a>
           <a class="piece" href="./source/three/examples/webgl_furnace_test.html" data-text="[&quot;webgl furnace test&quot;,&quot;three.js 官方示例&quot;,&quot;3d / webgl 演示&quot;,&quot;mrdoob/three.js&quot;,&quot;examples/webgl_furnace_test.html&quot;]">
             <div class="plate plate--scene" style="--a:#e8e3d8;--b:#3d6b46;--m:rgba(20,20,22,0.38)">
+              <img class="shot" src="./source/three/examples/screenshots/webgl_furnace_test.jpg" alt="WebGL Furnace Test rendered preview" loading="lazy" decoding="async" onerror="this.style.display='none'" />
               <span class="no">108</span>
               <span class="motif" aria-hidden="true"></span>
             </div>
             <div class="copy">
               <div class="line"><h3>WebGL Furnace Test</h3><span class="arrow" aria-hidden="true">↗</span></div>
-              <p>Official three.js example “WebGL Furnace Test”. A runnable study from the 3D / WebGL shelf; this card opens the local copy, then follows the source file under source/three.</p>
+              <p>Official three.js example “WebGL Furnace Test”. The plate is its rendered screenshot; the card opens the same runnable page from this repository.</p>
               <ul class="tags"><li>3D / WebGL</li><li>mrdoob</li><li>official example</li></ul>
               <span class="source-line"><b>mrdoob/three.js</b> · examples/webgl_furnace_test.html</span>
             </div>
@@ -1830,7 +1948,7 @@
       <footer>
         <p class="eyebrow">A catalog, with source</p>
         <p class="cmds"><code>108 entries</code><code>Volume I / VI</code><code>16 upstream repositories</code></p>
-        <p class="fine">Each unique upstream repository is forked once under <a href="https://github.com/bear20252026">bear20252026</a>. This room carries the three.js source base under <code>source/three</code> and the supplementary repositories for its cards under <code>source/vendor</code>; the catalog itself is still one HTML file. No 650 per-card clones, no repeated fork. Four catalog rows repeat an earlier source URL; they remain as records, but never produce a second fork.</p>
+        <p class="fine">Each unique upstream repository is forked once under <a href="https://github.com/bear20252026">bear20252026</a>. This room carries the three.js source base under <code>source/three</code>, the supplementary repositories under <code>source/vendor</code>, and local dossiers for repository-only records. Every card opens a page held here; no card opens an upstream project site or raw source file. No 650 per-card clones, no repeated fork. Four catalog rows repeat an earlier source URL; they remain as records, but never produce a second fork.</p>
         <p class="fine">This is the first room. Next room: <a href="https://bear20252026.github.io/frontier-shelf-02/">Frontier II</a>.</p>
       </footer>
     </div>
