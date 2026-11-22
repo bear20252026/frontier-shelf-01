@@ -1,0 +1,13 @@
+{
+  "volume": "frontier-shelf-01",
+  "entries": 108,
+  "threeExamples": 98,
+  "supplementary": [
+    "HKUDS/CLI-Anything",
+    "KhronosGroup/WebGL",
+    "ellisonleao/magictools",
+    "eug/awesome-opengl",
+    "kripken/ammo.js"
+  ],
+  "babylonCore": true
+}
